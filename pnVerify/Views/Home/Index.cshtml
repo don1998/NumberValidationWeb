@@ -1,0 +1,21 @@
+﻿<div class="jumbotron">
+    <h1>Login Page</h1>
+</div>
+<div class="row">
+    <form id="verify" method="post" action="@Url.Action("Verify", "Home")" enctype="application/x-www-form-urlencoded">
+        <div>
+            <label for="status">Identification Number</label>
+        </div>
+        <div>
+            <input style="width:220px;" name="username" type="text" id="idNum" required />
+        </div>
+        <br/>
+        <div>
+            <label for="status">Password</label>
+        </div>
+        <input style="width:220px;" name="password" id="Password1" type="password" required/>
+        <div>
+            <input id="idSubmit" type="submit" value="Submit" />
+        </div>
+    </form>
+</div>
